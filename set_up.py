@@ -5,7 +5,7 @@ setup(
     version = "0.1",
     packages = find_packages(),
     package_data = {"data_cleaning.data": ['*.csv'],},
-    install_requires = ["pandas", "numpy",],
+    install_requires = ["pandas", "numpy", "csv"],
     entry_points = {"console_scripts": ["clean-data = data_cleaning.cleaning:main", ],},
 )
 
